@@ -1,0 +1,20 @@
+# Ignore everything.
+*
+# But descend into directories.
+!*/
+
+# Files (with extension name) to include.
+# e.g. except sources, tests, and configurations.
+!*.c
+!*.h
+!Makefile
+
+!*.txt
+!*.md
+!*.sh
+
+!.gitignore
+
+# Don't ignore anything in the tests folder.
+!tests/libcmocka-static.a
+!tests/*/*.*
